@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carol's Car Hire - Paphos</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        header h2 {
+            font-size: 1.5rem;
+            margin: 10px 0 30px;
+            font-weight: normal;
+        }
+
+        .cars img {
+            width: 300px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .features {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 40px 20px;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 10px;
+            max-width: 600px;
+            text-align: left;
+            font-size: 1.2rem;
+        }
+
+        .contact {
+            margin: 50px 0;
+            font-size: 1.3rem;
+        }
+
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        @media (min-width: 768px) {
+            .features {
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .feature {
+                margin: 10px;
+                flex: 1 1 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CAR HIRE - Carol</h1>
+        <h2>Paphos Airport Car Rental</h2>
+    </header>
+
+    <section class="cars">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nissan_Note_01.JPG/640px-Nissan_Note_01.JPG" alt="Nissan Car">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Volkswagen_Up_1.0_Life_01.JPG/640px-Volkswagen_Up_1.0_Life_01.JPG" alt="Volkswagen Car">
+    </section>
+
+    <section class="features">
+        <div class="feature">✔ Competitive rates with no hidden extras</div>
+        <div class="feature">✔ Meet & greet at Paphos Airport – our office is just 5 minutes away</div>
+        <div class="feature">✔ Large selection of vehicles for everyone: mini economy cars to 7-seaters</div>
+        <div class="feature">✔ No deposit or preauthorization</div>
+    </section>
+
+    <section class="contact">
+        📞 Call Carol: <a href="tel:+35799257675">+357 99257675</a><br>
+        📧 Email: <a href="mailto:pfo-carhire@outlook.com">pfo-carhire@outlook.com</a>
+    </section>
+
+    <footer>
+        &copy; 2026 Carol's Car Hire, Paphos. All Rights Reserved.
+    </footer>
+</body>
+</html>
